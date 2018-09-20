@@ -10,6 +10,7 @@ class BookDetails extends Component {
       return (
         <div>
           <h2> {book.name}</h2>
+          <hr />
           <p>{book.genre}</p>
           <p>{book.author.name}</p>
           <p>All books by this Author</p>
